@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{Quick Look}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Blocos}{10}{0}{1}
