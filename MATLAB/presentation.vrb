@@ -1,18 +1,20 @@
-\frametitle{Codigo em C e Java}
-
-\includecode[ansic]{codigos/ola.c}
-
-\ansic
-\begin{lstlisting}
- int main(void){
-    printf("Ola mundo\n");
-    return 0;
- }
-\end{lstlisting}
+\frametitle{Reading values of a particle matrix}
+\begin{block}{}
+\begin{itemize}
+\item get value of all cells on row 3 of matrix $A$
 \java
 \begin{lstlisting}
- public static voi main(String args[]){
-    System.out.println("Ola mundo");
- }
+>> A(3,:)
 \end{lstlisting}
-
+\item get value of all cells on col 2 of matrix $A$
+\java
+\begin{lstlisting}
+>> A(:,2)
+\end{lstlisting}
+\item get value of all cells of matrix $A$
+\java
+\begin{lstlisting}
+>> A(:,:)
+\end{lstlisting}
+\end{itemize}
+\end{block}
