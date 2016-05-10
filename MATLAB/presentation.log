@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.4.13)  9 MAY 2016 21:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.2)  11 MAY 2016 01:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **presentation.tex
 (./presentation.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
 Package: beamerbasercs 2012/11/13 (rcs-revision cb16a617839f)
@@ -15,20 +15,20 @@ ing presentations (rcs-revision 24853e6b98cf)
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasemodes.sty
 Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
 \beamer@tempbox=\box26
-\beamer@tempcount=\count80
-\c@beamerpauses=\count81
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasedecode.sty
 Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
-\beamer@slideinframe=\count82
-\beamer@minimum=\count83
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
 )
 \beamer@commentbox=\box27
-\beamer@modecount=\count84
+\beamer@modecount=\count83
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 \headheight=\dimen102
 \headdp=\dimen103
@@ -54,24 +54,24 @@ Package ifpdf Info: pdfTeX in PDF mode is not detected.
 \beamer@sectionbox=\box31
 \beamer@logobox=\box32
 \beamer@linebox=\box33
-\beamer@sectioncount=\count85
-\beamer@subsubsectionmax=\count86
-\beamer@subsectionmax=\count87
-\beamer@sectionmax=\count88
-\beamer@totalheads=\count89
-\beamer@headcounter=\count90
-\beamer@partstartpage=\count91
-\beamer@sectionstartpage=\count92
-\beamer@subsectionstartpage=\count93
-\beamer@animationtempa=\count94
-\beamer@animationtempb=\count95
-\beamer@xpos=\count96
-\beamer@ypos=\count97
-\beamer@showpartnumber=\count98
-\beamer@currentsubsection=\count99
-\beamer@coveringdepth=\count100
-\beamer@sectionadjust=\count101
-\beamer@tocsectionnumber=\count102
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseoptions.sty
 Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
@@ -93,9 +93,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count103
-\Gm@cntv=\count104
-\c@Gm@tempcnt=\count105
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
 \Gm@bindingoffset=\dimen119
 \Gm@wd@mp=\dimen120
 \Gm@odd@mp=\dimen121
@@ -122,11 +122,18 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2013/04/29 v0.96 LaTeX color/graphics driver for XeTeX (RRM/JK)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
 ))
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
@@ -173,16 +180,13 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-xetex.def on input line 900.
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-xetex.def
-File: pgfsys-xetex.def 2010/02/16  (rcs-revision 1.3)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
-)
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf-via-dvi.def
-File: pgfsys-common-pdf-via-dvi.def 2008/05/19  (rcs-revision 1.7)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
@@ -198,8 +202,9 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -325,8 +330,8 @@ Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -342,10 +347,9 @@ Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -417,37 +421,18 @@ Package hyperref Message: Stopped early.
 
 )
 
-Package hyperref Message: Driver (autodetected): hxetex.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box40
-\c@Hy@AnnotLevel=\count124
-\HyField@AnnotCount=\count125
-\Fld@listcount=\count126
-\c@bookmark@seq@number=\count127
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
-
-)
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaserequires.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
@@ -483,37 +468,37 @@ Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseoverlay.sty
 Package: beamerbaseoverlay 2012/11/11  (rcs-revision 6afbc49b1109)
-\beamer@argscount=\count128
+\beamer@argscount=\count126
 \beamer@lastskipcover=\skip44
-\beamer@trivlistdepth=\count129
+\beamer@trivlistdepth=\count127
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetitle.sty
 Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasesection.sty
 Package: beamerbasesection 2012/11/11  (rcs-revision 0056eef6f17f)
-\c@lecture=\count130
-\c@part=\count131
-\c@section=\count132
-\c@subsection=\count133
-\c@subsubsection=\count134
+\c@lecture=\count128
+\c@part=\count129
+\c@section=\count130
+\c@subsection=\count131
+\c@subsubsection=\count132
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframe.sty
 Package: beamerbaseframe 2012/09/13  (rcs-revision dcd846607320)
-\beamer@framebox=\box41
-\beamer@frametitlebox=\box42
-\beamer@zoombox=\box43
-\beamer@zoomcount=\count135
-\beamer@zoomframecount=\count136
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count133
+\beamer@zoomframecount=\count134
 \beamer@frametextheight=\dimen165
-\c@subsectionslide=\count137
+\c@subsectionslide=\count135
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks24
 \framewidth=\dimen166
-\c@framenumber=\count138
+\c@framenumber=\count136
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseverbatim.sty
 Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
@@ -521,22 +506,22 @@ Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframesize.sty
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
-\beamer@splitbox=\box44
-\beamer@autobreakcount=\count139
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count137
 \beamer@autobreaklastheight=\dimen167
 \beamer@frametitletoks=\toks25
 \beamer@framesubtitletoks=\toks26
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframecomponents.sty
 Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
-\beamer@footins=\box45
+\beamer@footins=\box44
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasecolor.sty
 Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasenotes.sty
 Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
-\beamer@frameboxcopy=\box46
+\beamer@frameboxcopy=\box45
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetoc.sty
 Package: beamerbasetoc 2012/10/02  (rcs-revision 5ed0f4010e8a)
@@ -550,11 +535,11 @@ Package: beamerbaseauxtemplates 2012/05/01  (rcs-revision 67c48b3b652d)
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseboxes.sty
 Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
-\bmb@box=\box47
-\bmb@colorbox=\box48
-\bmb@boxshadow=\box49
-\bmb@boxshadowball=\box50
-\bmb@boxshadowballlarge=\box51
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
 \bmb@temp=\dimen168
 \bmb@dima=\dimen169
 \bmb@dimb=\dimen170
@@ -569,8 +554,8 @@ Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks28
 )
-\c@figure=\count140
-\c@table=\count141
+\c@figure=\count138
+\c@table=\count139
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
@@ -601,30 +586,30 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count142
+\inf@bad=\count140
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count143
-\leftroot@=\count144
+\uproot@=\count141
+\leftroot@=\count142
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count145
-\DOTSCASE@=\count146
+\classnum@=\count143
+\DOTSCASE@=\count144
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box51
+\strutbox@=\box52
 \big@size=\dimen176
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count147
-\c@MaxMatrixCols=\count148
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
 \dotsspace@=\muskip11
-\c@parentequation=\count149
-\dspbrk@lvl=\count150
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
 \tag@help=\toks30
-\row@=\count151
-\column@=\count152
-\maxfields@=\count153
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
 \andhelp@=\toks31
 \eqnshift@=\dimen177
 \alignsep@=\dimen178
@@ -651,7 +636,7 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip56
 \dth@everypar=\toks39
 )
-\c@theorem=\count154
+\c@theorem=\count152
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasethemes.sty
 Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
@@ -883,8 +868,6 @@ Now handling font encoding U ...
 ... no UTF-8 mapping file for font encoding U
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
    defining Unicode char U+00A9 (decimal 169)
    defining Unicode char U+00AA (decimal 170)
    defining Unicode char U+00AE (decimal 174)
@@ -912,44 +895,13 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
 LaTeX Info: Redefining \textlatin on input line 137.
-\babel@savecnt=\count155
+\babel@savecnt=\count153
 \U@D=\dimen185
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def))
+)
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
-Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
-\l@brazil = a dialect from \language\l@portuges 
-Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count156
-\c@Blindtext=\count157
-\c@blind@countparstart=\count158
-\blind@countxx=\count159
-\blindtext@numBlindtext=\count160
-\blind@countyy=\count161
-\c@blindlist=\count162
-\c@blindlistlevel=\count163
-\c@blindlist@level=\count164
-\blind@listitem=\count165
-\c@blind@listcount=\count166
-\c@blind@levelcount=\count167
-\blind@mathformula=\count168
-\blind@Mathformula=\count169
-\c@blind@randomcount=\count170
-\c@blind@randommax=\count171
-\c@blind@pangramcount=\count172
-\c@blind@pangrammax=\count173
-)
 (./beamerthemeIFSC.sty
 Package: beamerthemeIFSC 2015/05/20
  (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
@@ -957,7 +909,7 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box54
+\pgfnodeparttextbox=\box53
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
@@ -986,24 +938,24 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count174
-\lst@gtempboxa=\box55
+\lst@mode=\count154
+\lst@gtempboxa=\box54
 \lst@token=\toks42
-\lst@length=\count175
+\lst@length=\count155
 \lst@currlwidth=\dimen188
-\lst@column=\count176
-\lst@pos=\count177
+\lst@column=\count156
+\lst@pos=\count157
 \lst@lostspace=\dimen189
 \lst@width=\dimen190
-\lst@newlines=\count178
-\lst@lineno=\count179
+\lst@newlines=\count158
+\lst@lineno=\count159
 \lst@maxwidth=\dimen191
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-\c@lstnumber=\count180
-\lst@skipnumbers=\count181
-\lst@framebox=\box56
+\c@lstnumber=\count160
+\lst@skipnumbers=\count161
+\lst@framebox=\box55
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2013/08/26 1.5b listings configuration
@@ -1186,19 +1138,19 @@ Package: beamercolorthemestructure 2010/06/17  (rcs-revision d02a7cf4d8ae)
 Package: beamerinnerthemerectangles 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\spacefactor' on input line 19.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@m' on input line 19.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\spacefactor' on input line 19.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@m' on input line 19.
 
 (./presentation.aux)
@@ -1218,8 +1170,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
@@ -1232,9 +1182,9 @@ LaTeX Font Info:    Try loading font information for T1+aess on input line 38.
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1265,6 +1215,34 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count162
+\scratchdimen=\dimen194
+\scratchbox=\box56
+\nofMPsegments=\count163
+\nofMParguments=\count164
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count165
+\MPscratchDim=\dimen195
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
+\everyMPtoPDFconversion=\toks45
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box57
 Package hyperref Info: Link coloring OFF on input line 38.
@@ -1275,7 +1253,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count182
+\c@section@level=\count168
 )
 LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
@@ -1353,11 +1331,8 @@ tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 38.
-\c@lstlisting=\count183
+\c@lstlisting=\count169
  (./presentation.nav)
-File: rodape-ifsc.png Graphic file (type QTm)
-
-<use  "rodape-ifsc.png" >
 LaTeX Font Info:    Try loading font information for U+msa on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1374,120 +1349,119 @@ LaTeX Font Info:    Font shape `T1/aess/m/it' in size <6> not available
 (Font)              Font shape `T1/aess/m/sl' tried instead on input line 42.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <5> not available
 (Font)              Font shape `T1/aess/m/sl' tried instead on input line 42.
-File: rodape-ifsc.png Graphic file (type QTm)
+ [1
 
-<use  "rodape-ifsc.png" > [1
-
-] (./presentation.toc)
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" >
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rodape-ifsc.png>] (./pre
+sentation.toc)
 [2
 
-]
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [3
+] [3
 
-]
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [4
+] [4
 
 ]
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10.95> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 97.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 99.
 
 
 LaTeX Font Warning: Font shape `T1/aess/bx/it' undefined
-(Font)              using `T1/aess/bx/n' instead on input line 97.
+(Font)              using `T1/aess/bx/n' instead on input line 99.
 
-File: rodape-ifsc.png Graphic file (type QTm)
-<use  "rodape-ifsc.png" > [5
+[5
 
-]
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [6
+] [6
 
-]
-File: rodape-ifsc.png Graphic file (type QTm)
+] [7
 
-<use  "rodape-ifsc.png" > [7
+] [8
 
-]
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [8
+] <./Imgs/GUI.png, id=84, 1046.91125pt x 893.3375pt>
+File: ./Imgs/GUI.png Graphic file (type png)
 
-]
-File: ./Imgs/GUI.png Graphic file (type QTm)
+<use ./Imgs/GUI.png>
+Package pdftex.def Info: ./Imgs/GUI.png used on input line 158.
+(pdftex.def)             Requested size: 209.37854pt x 178.66432pt.
+ [9
 
-<use  "./Imgs/GUI.png" >
-Overfull \vbox (17.18472pt too high) detected at line 156
- []
+ <./Imgs/GUI.png>] [10
 
-File: rodape-ifsc.png Graphic file (type QTm)
-<use  "rodape-ifsc.png" > [9
-
-]
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [10
+] [11
 
 ]
 \openout4 = `presentation.vrb'.
 
+ (./presentation.vrb
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 8.
 
-(./presentation.vrb
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-LaTeX Font Info:    Try loading font information for T1+aett on input line 7.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 15.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 15.
-)
-File: rodape-ifsc.png Graphic file (type QTm)
+LaTeX Font Info:    Try loading font information for TS1+aett on input line 13.
 
-<use  "rodape-ifsc.png" > [11
+LaTeX Font Info:    No file TS1aett.fd. on input line 13.
+
+
+LaTeX Font Warning: Font shape `TS1/aett/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textquotesingle' on input line 13.
+
+) [12
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb) [13
 
 ]
 \openout4 = `presentation.vrb'.
 
  (./presentation.vrb)
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" >
-[12
-
-]
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [13
-
-]
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [14
-
-]
-Overfull \vbox (4.53752pt too high) detected at line 258
+Overfull \vbox (56.80453pt too high) detected at line 252
  []
 
-File: rodape-ifsc.png Graphic file (type QTm)
-<use  "rodape-ifsc.png" > [15
+[14
 
 ]
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb)
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" >
-[16
+ (./presentation.vrb) [15
 
 ]
 \openout4 = `presentation.vrb'.
 
- (./presentation.vrb)
-File: rodape-ifsc.png Graphic file (type QTm)
- <use  "rodape-ifsc.png" > [17
+ (./presentation.vrb) [16
+
+] [17
+
+] [18
+
+] [19
+
+]
+\openout4 = `presentation.vrb'.
+
+
+(./presentation.vrb) [20
+
+]
+\openout4 = `presentation.vrb'.
+
+ (./presentation.vrb) [21
+
+] [22
+
+]
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <14.4> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 431.
+ [23
 
 ]
 \tf@nav=\write6
@@ -1499,24 +1473,44 @@ File: rodape-ifsc.png Graphic file (type QTm)
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 344.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 344.
- (./presentation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 344.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 344.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 433.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 433.
+
+(./presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 433.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 6BDA61FF2641B52251FAA2DDAB35E988;130.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 344.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 433.
  ) 
 Here is how much of TeX's memory you used:
- 22358 strings out of 493918
- 382727 string characters out of 6150563
- 507904 words of memory out of 5000000
- 25184 multiletter control sequences out of 15000+600000
- 41930 words of font info for 69 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 49i,14n,60p,401b,1618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19470 strings out of 494985
+ 343359 string characters out of 6180357
+ 491201 words of memory out of 5000000
+ 22101 multiletter control sequences out of 15000+600000
+ 52577 words of font info for 103 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 49i,13n,53p,401b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/ahmad/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.
+pfb>
+Output written on presentation.pdf (23 pages, 277702 bytes).
+PDF statistics:
+ 228 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on presentation.pdf (17 pages).

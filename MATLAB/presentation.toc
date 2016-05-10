@@ -1,4 +1,5 @@
 \beamer@endinputifotherversion {3.24pt}
-\select@language {brazil}
+\select@language {english}
 \beamer@sectionintoc {1}{Quick Look}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Basics}{10}{0}{1}
+\beamer@sectionintoc {2}{Basics}{10}{0}{2}
+\beamer@sectionintoc {3}{Exercises}{22}{0}{3}

@@ -4,15 +4,15 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[english,brazil]{babel}
+\usepackage[english]{babel}
 
-\usepackage{blindtext}
 
 
 % usando tema personalizado. 
 % arquivo beamerthemeIFSC.sty deve estar no mesmo diretório do .tex
 \usepackage{beamerthemeIFSC}
 
+\usepackage{amsmath}
 
 \hypersetup{pdfstartview={Fit},pdftitle={\@title},
  	pdfsubject={Introduction to MATLAB},pdfauthor={\@author}
@@ -76,8 +76,10 @@ Department of Computer Engineering and Information Technology\\
 \begin{frame}{\\ What we will see}
 	\begin{itemize}
 		\item What is MATLAB?
+		\item Look around MATLAB
+		\item Applications
+		\item How to work with MATLAB
 		\item Graphical User Interface of MATLAB
-		\item Basic Syntax
 	\end{itemize}
 \end{frame}
 
@@ -150,14 +152,104 @@ Department of Computer Engineering and Information Technology\\
 	\begin{block}{}
 		\begin{figure}
 			\center
-			\includegraphics[scale=0.25]{./Imgs/GUI.png}
+			\includegraphics[scale=0.2]{./Imgs/GUI.png}
 		\end{figure}
 	\end{block}
 \end{frame}
 
 
-\subsection{Basics}
+\section{Basics}
 
+
+\begin{frame}{\\ What we will see}
+	\begin{itemize}
+		\item Getting Started!
+			\begin{itemize}
+				\item Hello World Again!
+				\item Simple Calculations
+				\item Hands on Variables
+			\end{itemize}
+		\item Primitive Data Structures
+			\begin{itemize}
+				\item Matrices and Vectors
+				\item Creating Special Vectors
+				\item Functions to create Matrices
+			\end{itemize}
+		\item Operations
+			\begin{itemize}
+				\item Matrix Operations
+				\item Array Operations
+			\end{itemize}
+		\item Reading Values of Cells in Matrices and Vectors
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{Getting Started}
+	\begin{block}{Hello World Again}
+	\begin{itemize}	
+		\item Using command window
+		\item There is commands for input/output that we will drill into later
+		\item A handy one is
+			\begin{itemize}
+				\item disp(\'this is a message\') $\rightarrow$ prints the message string in command window
+			\end{itemize}
+		\item The traditional first example!
+		\java
+			\begin{lstlisting}
+				>> disp('Hello World!')
+				Hello World!
+			\end{lstlisting}
+	\end{itemize}	
+	
+	\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Getting Started}
+	\begin{block}{Simple Calculations}
+		\begin{itemize}
+			\item You can write any desired expression to be calculated and get its results simply in command window.
+			\java
+				\begin{lstlisting}
+					>> 2 + 3
+					ans = 
+							5
+					>> sqrt((pi * 12)^2 / 3 - 57 * cos(pi/3)) 
+					ans =
+							21.007
+				\end{lstlisting}
+			\item There exists a complete list of provided functions like $cos()$ and $sqrt()$ available \href{http://mathworks.com/help/matlab/functionlist.html}{here in MATLAB documentation}:\\
+			\url{http://mathworks.com/help/matlab/functionlist.html}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}[fragile]{Getting Started}
+	\begin{block}{Hands on Variables}
+		\begin{itemize}
+			\item Variables are named places on memory being used in order to keep a value
+			\item Each variable has a specific data type
+			\item There exists a list of defined data types in MATLAB documents
+			\java
+				\begin{lstlisting}
+					>> a = 2
+					a = 
+							2
+					>> b = 3
+					b =
+							3
+					>> c = a + b
+					c =
+							5
+					>> (c * a * b)^2
+					ans =
+						900
+				\end{lstlisting}
+			\item There exists a complete list of provided functions like $cos()$ and $sqrt()$ available \href{http://mathworks.com/help/matlab/functionlist.html}{here}:\\
+			\url{http://mathworks.com/help/matlab/functionlist.html}
+		\end{itemize}
+	\end{block}
+\end{frame}
 
 \begin{frame}[fragile]{Primitive data structures}
 	\begin{block}{Matrices \& Vectors}
@@ -306,39 +398,36 @@ Department of Computer Engineering and Information Technology\\
 	\end{block}
 \end{frame}
 
-%parâmetros: linguagem (shell, java, matlab, python, c, php) e arquivo
+\section{Exercises}
 
-%\includecode[shell]{codigos/ola.sh}
-%
-%\includecode[matlab]{codigos/matlab.m}
-
-%ou
-% invocar os comandos \ansic, \java, \shell e colocar o código no próprio slide
-
-
-%\begin{frame}[fragile]{Codigo em C e Java}
-%
-%\includecode[ansic]{codigos/ola.c}	
-%
-%\ansic
-%	\begin{lstlisting}
-%	 int main(void){
-%	    printf("Ola mundo\n");
-%	    return 0;
-%	 }
-%	\end{lstlisting}
-%\java
-%	\begin{lstlisting}
-%	 public static voi main(String args[]){
-%	    System.out.println("Ola mundo");
-%	 }
-%	\end{lstlisting}	
-%	
-%\end{frame}
-%
-%
-
-
-
+\begin{frame}{You are what you practice more $_{Richard Carlson}$}
+	\begin{block}{}
+		\begin{enumerate}
+			\item Compute:\\
+			$4[2, 32, 42, 55, 2]^T + (-2)[1, 3, 5, 2, -6]^T + [5, -10, 3, 5, 32]^T$
+			\item Compute determinant of matrix A without using any function:\\
+			\begin{center}
+				$A = \begin{bmatrix}
+					12 & 3323 & 411\\
+					30 & -331 & 345\\
+					-12.323 & 34.653 & -34
+				\end{bmatrix}$			
+			\end{center}
+			\item Compute determinant of matrix A using $det()$ function for inner $2*2$ matrices
+			\item Do Gauss-Jordan to solve following equations:
+			\begin{center}
+			$
+			\left\{
+				\begin{array}{ll}
+					x + y + z = 5  \\
+					2x + 3y + 5z = 8 \\
+					4x + 5z = 2 
+				\end{array}
+			\right.
+			$
+			\end{center}
+		\end{enumerate}
+	\end{block}
+\end{frame}
 
 \end{document}
