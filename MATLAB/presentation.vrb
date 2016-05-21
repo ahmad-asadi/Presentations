@@ -1,20 +1,28 @@
-\frametitle{Reading values of a particle matrix}
-\begin{block}{}
-\begin{itemize}
-\item get value of all cells on row 3 of matrix $A$
-\java
-\begin{lstlisting}
->> A(3,:)
-\end{lstlisting}
-\item get value of all cells on col 2 of matrix $A$
-\java
-\begin{lstlisting}
->> A(:,2)
-\end{lstlisting}
-\item get value of all cells of matrix $A$
-\java
-\begin{lstlisting}
->> A(:,:)
-\end{lstlisting}
-\end{itemize}
+\frametitle{}
+\begin{block}{Practice puts brain in your muscles.$_{Sam Snead}$}
+\begin{enumerate}
+\item
+Given the vector x = [1 8 3 9 0 1], create a short set of commands that will
+\\
+   a. Add up the values of the elements (Check with sum.)
+   \\
+   b. Computes the running sum (for element j, the running sum is the sum of the
+      elements from 1 to j, inclusive.  Check with cumsum.)
+      \\
+   c. computes the sine of the given x-values (should be a vector)
+
+\item
+Compute the value of pi using the following series
+
+\begin{center}
+$
+\frac{\pi ^ 2 - 8}{16} = \Sigma_{n=1}^\infty \frac{1}{(2n-1)^2(2n+1)^2}
+$
+\end{center}
+
+
+   How many terms are needed to obtain an accuracy of 1e-12?  How accurate is
+   the sum of 100 terms of this series?
+
+     \end{enumerate}
 \end{block}

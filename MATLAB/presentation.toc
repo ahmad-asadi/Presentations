@@ -3,3 +3,8 @@
 \beamer@sectionintoc {1}{Quick Look}{3}{0}{1}
 \beamer@sectionintoc {2}{Basics}{10}{0}{2}
 \beamer@sectionintoc {3}{Exercises}{22}{0}{3}
+\beamer@sectionintoc {4}{Solving Equations}{24}{0}{4}
+\beamer@sectionintoc {5}{Figures and Plots}{31}{0}{5}
+\beamer@sectionintoc {6}{Exercises}{37}{0}{6}
+\beamer@sectionintoc {7}{Programming in MATLAB}{39}{0}{7}
+\beamer@sectionintoc {8}{Exercises}{51}{0}{8}
